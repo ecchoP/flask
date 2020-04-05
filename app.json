@@ -1,7 +1,7 @@
 {
   "name": "Flask Tutorial",
   "description": "Python Flask app",
-  "keywords": ["python", "flask"" ],
+  "keywords": ["python", "flask" ],
   "image": "heroku/python",
   "repository": "https://github.com/ecchoP/flask",
   "addons": [],
@@ -13,5 +13,5 @@
       "description": "This should be changed with `heroku config:set SECRET_KEY=\"`< /dev/urandom tr -dc 'a-zA-Z0-9' | head -c16`\"` after the initial deploy.",
       "value": "JV1UkrN94PySSFUZ"
     }
-  },
+  }
 }
