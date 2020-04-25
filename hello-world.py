@@ -10,7 +10,7 @@ def hello_world():
     riotapilevel = 'summonerLevel'
     r = requests.get(URL)
     level = r.json()[riotapilevel]
-    return 'Callum\'s Summoner Level is currently:<br>%s<br>Number of cute boys Callum has cuddled with: 0 <br>Python Version: %s' % (level, '.'.join(['%d'%k for k in sys.version_info[:3]]))
+    return 'Callum\'s Summoner Level is currently:<br>%s<br>Number of cute boys Callum has cuddled with: 0 <br>https://youtu.be/fQfLfuGsUBg and im sorry callum<br> Python Version: %s <br> this website is a joke, and any and all resemblences between persons on this website and persons either living or dead, are purely coincidental' % (level, '.'.join(['%d'%k for k in sys.version_info[:3]]))
     #return 'hello'
 
 
