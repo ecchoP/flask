@@ -3,7 +3,7 @@ import sys
 import requests
 app = Flask(__name__)
 
-@app.route('/new_tournament')
+@app.route('/')
 def callum_website():
     return '<a href="https://youtu.be/fQfLfuGsUBg">CALLUM</a> WEBSITE <br> CALLUM WEBSITE'
 #def new_tournament():
